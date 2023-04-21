@@ -1,0 +1,149 @@
+.win-or-lose-card {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  width: 60%;
+  background-size: cover;
+  margin: auto;
+  padding: 16px;
+
+  @media screen and (min-width: 768px) {
+    .win-or-lose-card {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+      width: 80%;
+      padding: 32px;
+      height: 100vh;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-or-lose-card {
+    width: 60%;
+  }
+}
+
+.trophy-img {
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .trophy-img {
+    margin-top: 300px;
+    height: 160px;
+    width: 160px;
+  }
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  margin-top: 200px;
+  height: 15%;
+}
+
+@media screen and (min-width: 992px) {
+  .details-section {
+    order: 0;
+    height: 85%;
+  }
+}
+
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 64px;
+  }
+}
+
+.current-score-label {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .current-score-label {
+    font-size: 36px;
+  }
+}
+
+.current-score-value {
+  text-align: center;
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .current-score-value {
+    font-size: 48px;
+  }
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .image-section {
+    order: 1;
+  }
+}
+
+.win-or-lose-image {
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-image {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+.reset-container {
+  display: flex;
+  align-items: center;
+}
