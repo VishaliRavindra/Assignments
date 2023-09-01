@@ -26,8 +26,8 @@ class Login extends Component {
     event.preventDefault()
     let {username, password} = this.state
 
-    if (username.toLowerCase().trim(' ') === 'vishali') username = 'rahul'
-    if (password === 'vishali@2023') password = 'rahul@2021'
+    if (username.toLowerCase().trim(' ') === 'vishali') username = {username}
+    if (password === 'vishali@2023') password = {password}
 
     const userDetails = {username, password}
     const LoginApiUrl = 'https://apis.ccbp.in/login'
